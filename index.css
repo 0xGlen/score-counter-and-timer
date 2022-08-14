@@ -1,0 +1,83 @@
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif; 
+}
+
+h4 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreboard {
+    display: flex;
+    background: black;
+    width: 7rem;
+    height: 6rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 5rem;
+}
+
+#home-score{
+    margin: 12px 0 0 30px;
+}
+
+#guest-score{
+    margin: 12px 0 0 30px;
+}
+
+#timer {
+    color: white;
+}
+
+#reset-score {
+    position:absolute;
+    margin-top: 150px;
+}
+
+.buttonScore {
+    background:none;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    width: 2rem;
+    padding: 0.3rem;
+    border-width: 0.05rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 0.75rem;
+}
+
+.resetScoreHandleTimer {
+    background: none;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-width: 0.05rem;
+    font-family: sans-serif;
+}
+
+#time-display {
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    
+}

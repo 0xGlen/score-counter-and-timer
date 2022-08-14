@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="scoreboard">
+                    <p id="home-score">0</p>
+                </div> 
+                <button class="buttonScore" onclick="addHomeScoreOne()">
+                    +1
+                </button>
+                <button class="buttonScore" onclick="addHomeScoreTwo()">
+                    +2
+                </button>
+                <button class="buttonScore" onclick="addHomeScoreThree()">
+                    +3
+                </button>
+            </div>
+            <div >
+                <h4>TIMER</h4>
+                
+                <div id="time-display">
+                
+                    <input id="hour" type="number" max="99" min="0" value="0">:<input id="minute" type="number" max="60" min="0" value="0">:<input id="sec" type="number" max="60" min="0" value="0">
+
+                </div>
+
+                <button class="resetScoreHandleTimer"
+                id="start-btn">
+                Start Timer
+                </button>
+                
+                <button class="resetScoreHandleTimer"
+                id="stop-btn">
+                Stop Timer
+                </button>
+                
+                <button class="resetScoreHandleTimer"
+                id="reset-timer-btn">
+                Reset Timer
+                </button>
+            </div>
+
+            <div>
+                <h3>GUEST</h3>
+                <div class="scoreboard">
+                    <p id="guest-score">0</p>
+                </div>
+                <button class="buttonScore" onclick="addGuestScoreOne()">
+                    +1
+                </button>
+                <button class="buttonScore" onclick="addGuestScoreTwo()">
+                    +2
+                </button>
+                <button class="buttonScore" onclick="addGuestScoreThree()">
+                    +3
+                </button>
+            </div>
+
+            <div id="reset-score">
+                <button class="resetScoreHandleTimer" onclick="resetScore()">
+                Reset Score
+                </button>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
